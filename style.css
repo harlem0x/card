@@ -1,0 +1,55 @@
+.container{
+    display:flex;
+    justify-content:center;
+      
+    
+  }
+  .card{
+    width:300px;
+    height:400px;
+    margin-top:60px;
+    border-radius:10px;
+    background:#3f3f3f ;
+      box-shadow: 5px 10px #888888;
+  }
+  .img{
+    width:100px;
+    border-radius:50%;
+   
+  }
+  .imagem{
+    display:flex;
+    margin-top:30px;
+    justify-content:center;
+  }
+  .titulo{
+  text-align:center;
+    color:#fff;
+    font-family:serfin;
+    
+    
+  }
+  .btn{
+    display:flex;
+    justify-content:center;
+    padding:10px;
+    
+  }
+  .btn-2{
+    padding:10px;
+    border: none;
+   border-radius:10px;
+    cursor:pointer;
+    background:#fa7f72;
+    color:#424242 ;
+    font-family:Fantasy;
+    font-size:20px;
+      transition: transform 0.2s;
+  }
+  .btn-2:hover{
+     transform: scale(1.1);
+    
+  }
+  .btn-2:active{
+      transform: scale(0.9);
+  }
